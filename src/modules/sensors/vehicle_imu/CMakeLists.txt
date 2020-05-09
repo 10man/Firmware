@@ -36,3 +36,4 @@ px4_add_library(vehicle_imu
 	VehicleIMU.hpp
 )
 target_link_libraries(vehicle_imu PRIVATE sensor_corrections px4_work_queue)
+target_compile_options(vehicle_imu PRIVATE -DDEBUG_BUILD)
