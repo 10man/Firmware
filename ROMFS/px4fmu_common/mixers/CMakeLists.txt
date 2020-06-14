@@ -37,6 +37,7 @@ px4_add_romfs_files(
 	AERT.main.mix
 	AETRFG.main.mix
 	blade130.main.mix
+	align500.main.mix
 	caipi.main.mix
 	CCPM.main.mix
 	claire.aux.mix
