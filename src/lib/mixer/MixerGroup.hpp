@@ -128,6 +128,20 @@ public:
 	 *
 	 *   S: <angle (deg)> <normalized arm length> <scale> <offset> <lower limit> <upper limit>
 	 *
+	 * Helicopter Mixer B
+	 * ................
+	 *
+	 * The helicopter mixer B is desigend to keep the pitch and throttle curves defined 
+	 * inside the RC transmitter, we control the swashplate from the combination of
+	 * pitch, roll, and aux0 as the colective channel
+	 *
+	 * B: <swash plate servo count>
+	 *
+	 * The definition continues with <swash plate servo count> entries describing
+	 * the position of the servo, in the following form:
+	 *
+	 *   S: <angle (deg)> <normalized arm length> <scale> <offset> <lower limit> <upper limit>
+	 *
 	 * @param buf			The mixer configuration buffer.
 	 * @param buflen		The length of the buffer, updated to reflect
 	 *				bytes as they are consumed.

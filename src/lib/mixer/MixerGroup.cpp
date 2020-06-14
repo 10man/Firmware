@@ -40,6 +40,7 @@
 #include "MixerGroup.hpp"
 
 #include "HelicopterMixer/HelicopterMixer.hpp"
+#include "HeliMixerB/HeliMixerB.hpp"
 #include "MultirotorMixer/MultirotorMixer.hpp"
 #include "NullMixer/NullMixer.hpp"
 #include "SimpleMixer/SimpleMixer.hpp"
@@ -202,6 +203,10 @@ MixerGroup::load_from_buf(Mixer::ControlCallback control_cb, uintptr_t cb_handle
 
 		case 'H':
 			m = HelicopterMixer::from_text(control_cb, cb_handle, p, resid);
+			break;
+
+		case 'B':
+			m = HeliMixer::from_text(control_cb, cb_handle, p, resid);
 			break;
 
 		default:
