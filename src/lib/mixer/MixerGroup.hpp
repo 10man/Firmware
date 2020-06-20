@@ -131,9 +131,9 @@ public:
 	 * Helicopter Mixer B
 	 * ................
 	 *
-	 * The helicopter mixer B is desigend to keep the pitch and throttle curves defined 
+	 * The helicopter mixer B is designed to keep the pitch and throttle curves defined
 	 * inside the RC transmitter, we control the swashplate from the combination of
-	 * pitch, roll, and aux0 as the colective channel
+	 * pitch, roll, and ch6 as the collective channel
 	 *
 	 * B: <swash plate servo count>
 	 *
