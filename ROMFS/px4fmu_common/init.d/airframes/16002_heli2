@@ -54,4 +54,6 @@ then
 	param set MPC_MANTHR_MIN 0.06
 
 	param set PWM_MIN 1075
+
+	param set TEL_FRSKY_CONFIG 102
 fi
