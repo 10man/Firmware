@@ -62,12 +62,12 @@ px4_add_board(
 		px4io
 		#roboclaw
 		#tap_esc
-		#telemetry # all available telemetry drivers
+		telemetry # all available telemetry drivers
 		#test_ppm
 		tone_alarm
 		#uavcan
 	MODULES
-		airspeed_selector
+		#airspeed_selector
 		#attitude_estimator_q
 		battery_status
 		#camera_feedback
@@ -76,8 +76,8 @@ px4_add_board(
 		ekf2
 		#esc_battery
 		#events
-		fw_att_control
-		fw_pos_control_l1
+		#fw_att_control
+		#fw_pos_control_l1
 		land_detector
 		#landing_target_estimator
 		load_mon
